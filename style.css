@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+.hidden {
+  display: none !important;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(216, 12%, 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+#ratingCard {
+  background-color: hsl(213, 19%, 18%);
+  font-family: Overpass, "sans-serif";
+  flex-direction: column;
+  height: 400px;
+  width: 375px;
+  border-radius: 5%;
+  padding: 15px;
+}
+#ratingCard p {
+  color: hsl(217, 12%, 63%);
+  font-size: 20px;
+}
+#ratingCard h1 {
+  font-family: Overpass, "sans-serif";
+  font-weight: 700;
+  color: white;
+}
+
+#ratingCard img {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: hsl(213, 19%, 30%);
+  padding: 2%;
+  border-radius: 50%;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-family: Overpass, "sans-serif";
+  font-size: large;
+  font-weight: 700;
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+  margin-left: 25px;
+  padding: 10px;
+  border-radius: 30px;
+  justify-content: center;
+}
+.rating ul {
+  display: flex;
+  color: hsl(217, 12%, 63%);
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-around;
+}
+.rating li {
+  border-radius: 50%;
+  padding: 3%;
+  background-color: hsl(213, 19%, 30%);
+}
+.rating li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+#selectionCard {
+  background-color: hsl(213, 19%, 18%);
+  font-family: Overpass, "sans-serif";
+  flex-direction: column;
+  height: 400px;
+  width: 375px;
+  border-radius: 5%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+#selectionCard div {
+  background-color: hsl(213, 19%, 30%);
+  color: hsl(25, 97%, 45%);
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+.thank-you {
+  color: white;
+  font-family: Overpass, "sans-serif";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#selectionCard p {
+  color: hsl(217, 12%, 63%);
+  font-size: 20px;
+  text-align: center;
+}
+li:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+.activeLi {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
